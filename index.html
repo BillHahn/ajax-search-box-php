@@ -22,25 +22,6 @@
               dataType: 'JSON',
               data: 'key=' + query,
               success: function(data) {
-                //console.log(data);
-                process(data);
-              }
-            });
-          }
-        });
-      });
-	</script>
-<!--
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $('input.typeahead').typeahead({
-          source: function (query, process) {
-            $.ajax({
-              url: 'data.php',
-              type: 'GET',
-              dataType: 'JSON',
-              data: 'key=' + query,
-              success: function(data) {
                 console.log(data);
                 process(data);
               }
@@ -49,7 +30,6 @@
         });
       });
     </script>
--->
 </head>
   <body>
    <div class="page-header">

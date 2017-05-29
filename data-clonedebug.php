@@ -16,8 +16,8 @@
   //$db = mysqli_select_db("prodcat",$con);
 
   //Get key from Post/Request
-  //$key = $_GET['key'];
-  $key = "apple - macbook pro";
+  $key = $_GET['key'];
+  //$key = "apple - macbook pro";
   
   //Build querystring using key to find rows that include key string using SQL LIKE
   $querystring = "select name from products where name LIKE '%{$key}%'";
@@ -43,4 +43,3 @@
   //echo JSON structure to return as the result of this query
   //echo "<br><br>JSON Result: <br> ";
   echo json_encode($array);
-  exit();
