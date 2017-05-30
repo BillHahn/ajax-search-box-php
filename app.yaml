@@ -1,6 +1,6 @@
 runtime: php55
 api_version: 1
-service: autocomplete-php
+service: default
 
 handlers:
 
