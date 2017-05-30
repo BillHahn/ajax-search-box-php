@@ -55,7 +55,7 @@
    <div class="page-header">
      <a href="">
        <img id="Node.js-DevLogo"
-       src="https://storage.googleapis.com/bh-images/php-logo.jpg"
+       src="https://storage.googleapis.com/bh-images/fullstack-icons.png"
        alt="Node.js version of Autocomplete - in GCP with GAE and MySQL backend!"
        width="100" height="50"
        style="cursor:pointer; cursor:hand; border:0"
