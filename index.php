@@ -30,37 +30,20 @@
         });
       });
 	</script>
-<!--
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $('input.typeahead').typeahead({
-          source: function (query, process) {
-            $.ajax({
-              url: 'data.php',
-              type: 'GET',
-              dataType: 'JSON',
-              data: 'key=' + query,
-              success: function(data) {
-                console.log(data);
-                process(data);
-              }
-            });
-          }
-        });
-      });
-    </script>
--->
+
 </head>
   <body>
    <div class="page-header">
      <a href="">
        <img id="Node.js-DevLogo"
        src="https://storage.googleapis.com/bh-images/php-mysql-js-logos.jpg"
-       alt="Node.js version of Autocomplete - in GCP with GAE and MySQL backend!"
+       alt="PHP version of Autocomplete - in GCP with GAE and MySQL backend!"
        width="250" height="75"
        style="cursor:pointer; cursor:hand; border:0"
        />
      </a>
+        <h1>PHP - GCP Autocomplete Ajax UI: GAE + Node.js + SQL Backend!
+        </h1>
     </div>
 
   <!-- The Typeahead Input Field on web page bound to Bootstrap Typeahead to query MySQL for autocomplete results. -->
