@@ -44,7 +44,7 @@
      </a>
         <h1>PHP - GCP Autocomplete Ajax UI: GAE + Node.js + SQL Backend!</h1)
         <br>
-        <h1> Easy Pleasey to change anything... </h1>
+        <h1> </h1>
     </div>
 
   <!-- The Typeahead Input Field on web page bound to Bootstrap Typeahead to query MySQL for autocomplete results. -->
