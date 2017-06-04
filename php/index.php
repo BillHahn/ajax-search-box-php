@@ -45,7 +45,7 @@
        style="cursor:pointer; cursor:hand; border:0"
        />
      </a>
-        <h1>PHP - GCP Autocomplete Ajax UI: GAE + Node.js + SQL Backend!</h1>
+        <h1>GCP Autocomplete Ajax UI: GAE + PHP + SQL Backend!</h1>
 <!--        <br>
         <h1> Additional Change using Atom on the desktop!!! </h1> -->
     </div>
