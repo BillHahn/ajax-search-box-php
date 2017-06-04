@@ -15,6 +15,9 @@
     <script type="text/javascript">
       $(document).ready(function() {
         $('input.typeahead').typeahead({
+          minlength: 2,
+          delay: 100,
+          items: 10,
           source: function (query, process) {
             $.ajax({
               url: '/php/dataquery.php',
