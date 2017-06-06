@@ -1,6 +1,6 @@
 <?php
 
-class StackTest extends TestCase
+class StackTest
 {
     public function testPushAndPop()
     {
