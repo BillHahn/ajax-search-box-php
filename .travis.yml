@@ -5,7 +5,3 @@ deploy:
   provider: gae
   keyfile: Travisci-BHSandbox-ef2cbf0fc358.json
   project: bill-hahn-sandbox
-before_install:
-- openssl aes-256-cbc -K $encrypted_dc7137c6d39a_key -iv $encrypted_dc7137c6d39a_iv
-  -in Travisci-BHSandbox-ef2cbf0fc358.json.enc -out Travisci-BHSandbox-ef2cbf0fc358.json
-  -d
