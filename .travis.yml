@@ -1,7 +1,7 @@
 language: php
 php:
 - '5.5'
-script: phpunit UnitTest.php
+script: phpunit test.php
 deploy:
   provider: gae
   keyfile: client-secret.json
