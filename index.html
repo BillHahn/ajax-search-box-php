@@ -16,7 +16,7 @@
       $(document).ready(function() {
         $('input.typeahead').typeahead({
           minlength: 2,
-          delay: 100,
+          delay: 0,
           items: 10,
           source: function (query, process) {
             $.ajax({
