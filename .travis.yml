@@ -7,4 +7,5 @@ deploy:
   project: bill-hahn-sandbox
 before_install:
 - openssl aes-256-cbc -K $encrypted_dc7137c6d39a_key -iv $encrypted_dc7137c6d39a_iv
-  -in BHSandbox-5f9a6db00286.json.enc -out BHSandbox-5f9a6db00286.json -d
+  -in Travisci-BHSandbox-ef2cbf0fc358.json.enc -out Travisci-BHSandbox-ef2cbf0fc358.json
+  -d
