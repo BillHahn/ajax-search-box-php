@@ -1,6 +1,6 @@
 <?php
 
-class StackTest
+class test
 {
     public function testPushAndPop()
     {
