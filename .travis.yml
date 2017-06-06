@@ -1,8 +1,7 @@
-
 deploy:
   provider: gae
-  keyfile: BHSandbox-b7e1b42b2ffb.json
-  project: bill-hahn-sandbox
+  keyfile: "BHSandbox-b7e1b42b2ffb.json"
+  project: "bill-hahn-sandbox"
 before_install:
 - openssl aes-256-cbc -K $encrypted_dc7137c6d39a_key -iv $encrypted_dc7137c6d39a_iv
   -in BHSandbox-b7e1b42b2ffb.json.enc -out BHSandbox-b7e1b42b2ffb.json -d
