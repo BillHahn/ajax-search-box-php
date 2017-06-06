@@ -1,6 +1,6 @@
 <?php
 
-class test
+class UnitTest
 {
     public function testPushAndPop()
     {
