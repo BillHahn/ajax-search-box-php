@@ -15,12 +15,9 @@
     <script type="text/javascript">
       $(document).ready(function() {
         $('input.typeahead').typeahead({
-          minlength: 2,
-          delay: 100,
-          items: 10,
           source: function (query, process) {
             $.ajax({
-              url: '/php/dataquery.php',
+              url: 'data.php',
               type: 'GET',
               dataType: 'JSON',
               data: 'key=' + query,
@@ -45,9 +42,9 @@
        style="cursor:pointer; cursor:hand; border:0"
        />
      </a>
-        <h1>GCP Autocomplete Ajax UI: GAE + PHP + SQL Backend!</h1>
-<!--        <br>
-        <h1> Additional Change using Atom on the desktop!!! </h1> -->
+        <h1>PHP - GCP Autocomplete Ajax UI: GAE + Node.js + SQL Backend!</h1)
+        <br>
+        <h1> Additional Change using Atom on the desktop!!! </h1>
     </div>
 
   <!-- The Typeahead Input Field on web page bound to Bootstrap Typeahead to query MySQL for autocomplete results. -->

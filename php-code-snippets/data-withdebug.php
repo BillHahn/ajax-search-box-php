@@ -21,6 +21,74 @@
 -->
 
 
+<style type="text/css">
+.bs-example{
+	font-family: sans-serif;
+	position: relative;
+	margin: 50px;
+}
+.typeahead, .tt-query, .tt-hint {
+	width: 790px;
+  border: 2px solid #CCCCCC;
+	border-radius: 8px;
+	font-size: 18px;
+	height: 24px;
+	line-height: 24px;
+	outline: medium none;
+	padding: 4px 6px;
+}
+.typeahead {
+	background-color: #FFFFFF;
+}
+.typeahead:focus {
+	border: 2px solid #0097CF;
+}
+.tt-query {
+/*	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset; */
+-webkit-box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.075);
+   -moz-box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.075);
+        box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.075);
+}
+.tt-hint {
+/*	color: #999999;*/
+width: 800px;
+height: 24px;
+padding: 4px 6px;
+font-size: 18px;
+line-height: 24px;
+border: 2px solid #ccc;
+-webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+        border-radius: 8px;
+outline: none;
+}
+.tt-dropdown-menu {
+  width: 800px;
+  margin-top: 4px;
+  padding: 1px 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+     -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+          box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+.tt-suggestion {
+	font-size: 18px;
+	line-height: 18px;
+	padding: .1px 0px;
+	margin: 0;
+}
+.tt-suggestion.tt-is-under-cursor {
+/*	background-color: #0097CF;
+	color: #FFFFFF;*/
+  color: #fff;
+  background-color: #0087cf;
+}
+
 </style>
 </head>
 <body>
@@ -35,7 +103,7 @@
    <div class="page-header">
      <a href="">
        <img id="Node.js-DevLogo"
-       src="https://storage.cloud.google.com/bh-images/php-mysql-js-logos.jpg"
+       src="https://storage.googleapis.com/bh-images/php-logo.jpg"
        alt="Node.js version of Autocomplete - in GCP with GAE and MySQL backend!"
        width="100" height="50"
        style="cursor:pointer; cursor:hand; border:0"
